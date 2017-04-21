@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A17B35CF31A315B356B6D8D /* Pods_DynamicLinksMCVE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2E86217B77EC0D4D6B53E /* Pods_DynamicLinksMCVE.framework */; };
+		6511DB191EAA61E6002E856B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511DB181EAA61E6002E856B /* AppDelegate.swift */; };
+		6511DB1B1EAA61E6002E856B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511DB1A1EAA61E6002E856B /* ViewController.swift */; };
+		6511DB1E1EAA61E6002E856B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511DB1C1EAA61E6002E856B /* Main.storyboard */; };
+		6511DB201EAA61E6002E856B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6511DB1F1EAA61E6002E856B /* Assets.xcassets */; };
+		6511DB231EAA61E6002E856B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511DB211EAA61E6002E856B /* LaunchScreen.storyboard */; };
+		6511DB2E1EAA61E6002E856B /* DynamicLinksMCVETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511DB2D1EAA61E6002E856B /* DynamicLinksMCVETests.swift */; };
+		6511DB391EAA61E6002E856B /* DynamicLinksMCVEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511DB381EAA61E6002E856B /* DynamicLinksMCVEUITests.swift */; };
+		65B4F4461EAA64F30096E9F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65B4F4451EAA64F30096E9F9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6511DB2A1EAA61E6002E856B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6511DB0D1EAA61E6002E856B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6511DB141EAA61E6002E856B;
+			remoteInfo = DynamicLinksMCVE;
+		};
+		6511DB351EAA61E6002E856B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6511DB0D1EAA61E6002E856B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6511DB141EAA61E6002E856B;
+			remoteInfo = DynamicLinksMCVE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5886D3E148ACED4215ECF26E /* Pods-DynamicLinksMCVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLinksMCVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLinksMCVE/Pods-DynamicLinksMCVE.release.xcconfig"; sourceTree = "<group>"; };
+		6511DB151EAA61E6002E856B /* DynamicLinksMCVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLinksMCVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511DB181EAA61E6002E856B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6511DB1A1EAA61E6002E856B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6511DB1D1EAA61E6002E856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6511DB1F1EAA61E6002E856B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6511DB221EAA61E6002E856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6511DB241EAA61E6002E856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511DB291EAA61E6002E856B /* DynamicLinksMCVETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicLinksMCVETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511DB2D1EAA61E6002E856B /* DynamicLinksMCVETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinksMCVETests.swift; sourceTree = "<group>"; };
+		6511DB2F1EAA61E6002E856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511DB341EAA61E6002E856B /* DynamicLinksMCVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicLinksMCVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511DB381EAA61E6002E856B /* DynamicLinksMCVEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinksMCVEUITests.swift; sourceTree = "<group>"; };
+		6511DB3A1EAA61E6002E856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B4F4441EAA63080096E9F9 /* DynamicLinksMCVE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicLinksMCVE.entitlements; sourceTree = "<group>"; };
+		65B4F4451EAA64F30096E9F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3B2E86217B77EC0D4D6B53E /* Pods_DynamicLinksMCVE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLinksMCVE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95A1708387434A766628A0 /* Pods-DynamicLinksMCVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLinksMCVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLinksMCVE/Pods-DynamicLinksMCVE.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6511DB121EAA61E6002E856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A17B35CF31A315B356B6D8D /* Pods_DynamicLinksMCVE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB261EAA61E6002E856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB311EAA61E6002E856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6511DB0C1EAA61E6002E856B = {
+			isa = PBXGroup;
+			children = (
+				6511DB171EAA61E6002E856B /* DynamicLinksMCVE */,
+				6511DB2C1EAA61E6002E856B /* DynamicLinksMCVETests */,
+				6511DB371EAA61E6002E856B /* DynamicLinksMCVEUITests */,
+				6511DB161EAA61E6002E856B /* Products */,
+				74F2AA547C68176FCCE057E5 /* Pods */,
+				BCCD4AFE23E428946B33E724 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6511DB161EAA61E6002E856B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6511DB151EAA61E6002E856B /* DynamicLinksMCVE.app */,
+				6511DB291EAA61E6002E856B /* DynamicLinksMCVETests.xctest */,
+				6511DB341EAA61E6002E856B /* DynamicLinksMCVEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6511DB171EAA61E6002E856B /* DynamicLinksMCVE */ = {
+			isa = PBXGroup;
+			children = (
+				65B4F4451EAA64F30096E9F9 /* GoogleService-Info.plist */,
+				65B4F4441EAA63080096E9F9 /* DynamicLinksMCVE.entitlements */,
+				6511DB181EAA61E6002E856B /* AppDelegate.swift */,
+				6511DB1A1EAA61E6002E856B /* ViewController.swift */,
+				6511DB1C1EAA61E6002E856B /* Main.storyboard */,
+				6511DB1F1EAA61E6002E856B /* Assets.xcassets */,
+				6511DB211EAA61E6002E856B /* LaunchScreen.storyboard */,
+				6511DB241EAA61E6002E856B /* Info.plist */,
+			);
+			path = DynamicLinksMCVE;
+			sourceTree = "<group>";
+		};
+		6511DB2C1EAA61E6002E856B /* DynamicLinksMCVETests */ = {
+			isa = PBXGroup;
+			children = (
+				6511DB2D1EAA61E6002E856B /* DynamicLinksMCVETests.swift */,
+				6511DB2F1EAA61E6002E856B /* Info.plist */,
+			);
+			path = DynamicLinksMCVETests;
+			sourceTree = "<group>";
+		};
+		6511DB371EAA61E6002E856B /* DynamicLinksMCVEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6511DB381EAA61E6002E856B /* DynamicLinksMCVEUITests.swift */,
+				6511DB3A1EAA61E6002E856B /* Info.plist */,
+			);
+			path = DynamicLinksMCVEUITests;
+			sourceTree = "<group>";
+		};
+		74F2AA547C68176FCCE057E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF95A1708387434A766628A0 /* Pods-DynamicLinksMCVE.debug.xcconfig */,
+				5886D3E148ACED4215ECF26E /* Pods-DynamicLinksMCVE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCCD4AFE23E428946B33E724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2E86217B77EC0D4D6B53E /* Pods_DynamicLinksMCVE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6511DB141EAA61E6002E856B /* DynamicLinksMCVE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511DB3D1EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVE" */;
+			buildPhases = (
+				E2C9ACE3A490C3EA68225B61 /* [CP] Check Pods Manifest.lock */,
+				6511DB111EAA61E6002E856B /* Sources */,
+				6511DB121EAA61E6002E856B /* Frameworks */,
+				6511DB131EAA61E6002E856B /* Resources */,
+				5C5408D766AF732ACF5BB14E /* [CP] Embed Pods Frameworks */,
+				36D37F602A9ADBC759D5527C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicLinksMCVE;
+			productName = DynamicLinksMCVE;
+			productReference = 6511DB151EAA61E6002E856B /* DynamicLinksMCVE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6511DB281EAA61E6002E856B /* DynamicLinksMCVETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511DB401EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVETests" */;
+			buildPhases = (
+				6511DB251EAA61E6002E856B /* Sources */,
+				6511DB261EAA61E6002E856B /* Frameworks */,
+				6511DB271EAA61E6002E856B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6511DB2B1EAA61E6002E856B /* PBXTargetDependency */,
+			);
+			name = DynamicLinksMCVETests;
+			productName = DynamicLinksMCVETests;
+			productReference = 6511DB291EAA61E6002E856B /* DynamicLinksMCVETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6511DB331EAA61E6002E856B /* DynamicLinksMCVEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511DB431EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVEUITests" */;
+			buildPhases = (
+				6511DB301EAA61E6002E856B /* Sources */,
+				6511DB311EAA61E6002E856B /* Frameworks */,
+				6511DB321EAA61E6002E856B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6511DB361EAA61E6002E856B /* PBXTargetDependency */,
+			);
+			name = DynamicLinksMCVEUITests;
+			productName = DynamicLinksMCVEUITests;
+			productReference = 6511DB341EAA61E6002E856B /* DynamicLinksMCVEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6511DB0D1EAA61E6002E856B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Example;
+				TargetAttributes = {
+					6511DB141EAA61E6002E856B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6L6G8SY9C6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					6511DB281EAA61E6002E856B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6511DB141EAA61E6002E856B;
+					};
+					6511DB331EAA61E6002E856B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6511DB141EAA61E6002E856B;
+					};
+				};
+			};
+			buildConfigurationList = 6511DB101EAA61E6002E856B /* Build configuration list for PBXProject "DynamicLinksMCVE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6511DB0C1EAA61E6002E856B;
+			productRefGroup = 6511DB161EAA61E6002E856B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6511DB141EAA61E6002E856B /* DynamicLinksMCVE */,
+				6511DB281EAA61E6002E856B /* DynamicLinksMCVETests */,
+				6511DB331EAA61E6002E856B /* DynamicLinksMCVEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6511DB131EAA61E6002E856B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511DB231EAA61E6002E856B /* LaunchScreen.storyboard in Resources */,
+				65B4F4461EAA64F30096E9F9 /* GoogleService-Info.plist in Resources */,
+				6511DB201EAA61E6002E856B /* Assets.xcassets in Resources */,
+				6511DB1E1EAA61E6002E856B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB271EAA61E6002E856B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB321EAA61E6002E856B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D37F602A9ADBC759D5527C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicLinksMCVE/Pods-DynamicLinksMCVE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5408D766AF732ACF5BB14E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicLinksMCVE/Pods-DynamicLinksMCVE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C9ACE3A490C3EA68225B61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6511DB111EAA61E6002E856B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511DB1B1EAA61E6002E856B /* ViewController.swift in Sources */,
+				6511DB191EAA61E6002E856B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB251EAA61E6002E856B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511DB2E1EAA61E6002E856B /* DynamicLinksMCVETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511DB301EAA61E6002E856B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511DB391EAA61E6002E856B /* DynamicLinksMCVEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6511DB2B1EAA61E6002E856B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6511DB141EAA61E6002E856B /* DynamicLinksMCVE */;
+			targetProxy = 6511DB2A1EAA61E6002E856B /* PBXContainerItemProxy */;
+		};
+		6511DB361EAA61E6002E856B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6511DB141EAA61E6002E856B /* DynamicLinksMCVE */;
+			targetProxy = 6511DB351EAA61E6002E856B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6511DB1C1EAA61E6002E856B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511DB1D1EAA61E6002E856B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6511DB211EAA61E6002E856B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511DB221EAA61E6002E856B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6511DB3B1EAA61E6002E856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6511DB3C1EAA61E6002E856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6511DB3E1EAA61E6002E856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF95A1708387434A766628A0 /* Pods-DynamicLinksMCVE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DynamicLinksMCVE/DynamicLinksMCVE.entitlements;
+				DEVELOPMENT_TEAM = 6L6G8SY9C6;
+				INFOPLIST_FILE = DynamicLinksMCVE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reportallusa.landglide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6511DB3F1EAA61E6002E856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5886D3E148ACED4215ECF26E /* Pods-DynamicLinksMCVE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DynamicLinksMCVE/DynamicLinksMCVE.entitlements;
+				DEVELOPMENT_TEAM = 6L6G8SY9C6;
+				INFOPLIST_FILE = DynamicLinksMCVE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reportallusa.landglide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6511DB411EAA61E6002E856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicLinksMCVETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dynamiclinks.DynamicLinksMCVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicLinksMCVE.app/DynamicLinksMCVE";
+			};
+			name = Debug;
+		};
+		6511DB421EAA61E6002E856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicLinksMCVETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dynamiclinks.DynamicLinksMCVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicLinksMCVE.app/DynamicLinksMCVE";
+			};
+			name = Release;
+		};
+		6511DB441EAA61E6002E856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DynamicLinksMCVEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dynamiclinks.DynamicLinksMCVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicLinksMCVE;
+			};
+			name = Debug;
+		};
+		6511DB451EAA61E6002E856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DynamicLinksMCVEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dynamiclinks.DynamicLinksMCVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicLinksMCVE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6511DB101EAA61E6002E856B /* Build configuration list for PBXProject "DynamicLinksMCVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511DB3B1EAA61E6002E856B /* Debug */,
+				6511DB3C1EAA61E6002E856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511DB3D1EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511DB3E1EAA61E6002E856B /* Debug */,
+				6511DB3F1EAA61E6002E856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511DB401EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511DB411EAA61E6002E856B /* Debug */,
+				6511DB421EAA61E6002E856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511DB431EAA61E6002E856B /* Build configuration list for PBXNativeTarget "DynamicLinksMCVEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511DB441EAA61E6002E856B /* Debug */,
+				6511DB451EAA61E6002E856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6511DB0D1EAA61E6002E856B /* Project object */;
+}

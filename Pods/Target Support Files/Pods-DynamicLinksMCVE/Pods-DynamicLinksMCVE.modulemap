@@ -1,0 +1,6 @@
+framework module Pods_DynamicLinksMCVE {
+  umbrella header "Pods-DynamicLinksMCVE-umbrella.h"
+
+  export *
+  module * { export * }
+}
