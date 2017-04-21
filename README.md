@@ -27,7 +27,7 @@ Missing is the embedded link parameter
 link=https://www.reportallusa.com/survey
 ```
 
-The expected link should look like: 
+The expected openURL should look like: 
 ```
-//google/link?link=https://www.reportallusa.com/survey
+com.reportallusa.landglide://google/link?link=https://www.reportallusa.com/survey
 ```
