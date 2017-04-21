@@ -1,5 +1,4 @@
 # Firebase-Dynamic-Links-MCVE
-# Firebase-Dynamic-Links-MCVE
 Using the deep link:
 '''
 https://s8x25.app.goo.gl/?link=https://www.reportallusa.com/survey&apn=com.reportallusa.landglide&isi=560902465&ibi=com.reportallusa.landglide.Landglide
