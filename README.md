@@ -5,12 +5,14 @@ https://s8x25.app.goo.gl/?link=https://www.reportallusa.com/survey&apn=com.repor
 ```
 
 ![Alt text](/screenshots/screenshot_dynamic_link_normal.png?raw=true "Expected Dynamic Link Behavior")
+
 This is the proper behavior when the dynamic link is opened when the app is already installed. It works fine in this case. See how the link parameter is properly embedded:
 ```
 https://www.reportallusa.com/survey
 ```
 
 ![Alt text](/screenshots/screenshot_dynamic_link_first_open.png?raw=true "Dynamic Link First Open")
+
 This is the behavior when the dynamic link is opened when the app is not already installed. Notice the lack of any link parameter data::
 ```
 //google/link/
